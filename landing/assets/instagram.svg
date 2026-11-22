@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="warm" cx=".25" cy="1" r="1.05">
+      <stop stop-color="#ffdc80"/>
+      <stop offset=".24" stop-color="#fcaf45"/>
+      <stop offset=".49" stop-color="#f56040"/>
+      <stop offset=".72" stop-color="#e1306c"/>
+      <stop offset="1" stop-color="#833ab4"/>
+    </radialGradient>
+    <linearGradient id="cool" x2=".65" y2=".6">
+      <stop stop-color="#405de6"/>
+      <stop offset="1" stop-color="#833ab4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="11" fill="url(#warm)"/>
+  <rect width="48" height="48" rx="11" fill="url(#cool)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.8">
+    <rect x="10" y="10" width="28" height="28" rx="8"/>
+    <circle cx="24" cy="24" r="6.6"/>
+  </g>
+  <circle cx="32.2" cy="15.8" r="1.8" fill="#fff"/>
+</svg>
